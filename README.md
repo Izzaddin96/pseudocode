@@ -1,6 +1,17 @@
 # pseudocode
 # Display library main menu
 
+DECLARE books AS array of strings
+DECLARE available AS array of integers
+DECLARE borrowed AS array of integers
+DECLARE menu_choice AS integer
+DECLARE book_choice AS integer
+DECLARE num_books AS integer
+DECLARE i AS integer
+DECLARE user_input AS string
+DECLARE name AS string
+DECLARE date AS string
+    
 Display "Welcome to the Library!"
 Display "Please enter your username:"
 username = Read user's input
@@ -16,7 +27,7 @@ While True:
     # Read user's menu choice
     menu_choice = Read user's input
     
-    # List available books
+    # List available books#
     If menu_choice == 1:
         books = Get list of available books with quantity
         Display "Available Books:"
